@@ -1,0 +1,285 @@
+{
+  "name": "Real",
+  "classrooms": [
+    {
+      "name": "A1S101",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A3102",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A4002",
+      "capacity": 130,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A4102",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A4202",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5001",
+      "capacity": 130,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5002",
+      "capacity": 130,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5101",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5102",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5103",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5104",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5105",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5106",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5201",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5202",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5203",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5204",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5E01",
+      "capacity": 110,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5E02",
+      "capacity": 110,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A5S102",
+      "capacity": 60,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S103",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S104",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S105",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S108",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S109",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S111",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S112",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A5S113",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "A6001",
+      "capacity": 130,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6002",
+      "capacity": 130,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6101",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6102",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6103",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6104",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6105",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6106",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6201",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6202",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6203",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6204",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6205",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6206",
+      "capacity": 50,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6E01",
+      "capacity": 120,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "A6E02",
+      "capacity": 120,
+      "material": ["Projector", "Pissarra"]
+    },
+    {
+      "name": "B5S101",
+      "capacity": 20,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "B5S201",
+      "capacity": 40,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "B5S202",
+      "capacity": 40,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C5S202",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C5S203",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S301",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S302",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S303",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S306",
+      "capacity": 30,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S308",
+      "capacity": 20,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "C6S309",
+      "capacity": 20,
+      "material": ["Projector", "Pissarra", "Ordinador"]
+    },
+    {
+      "name": "D6003",
+      "capacity": 100,
+      "material": ["Projector", "Pissarra"]
+    }
+  ]
+}

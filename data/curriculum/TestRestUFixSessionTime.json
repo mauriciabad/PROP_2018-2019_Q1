@@ -1,0 +1,23 @@
+{
+  "subjects": [
+    {
+      "preRequisit": [],
+      "preCoRequisit": ["FM"],
+      "level": 1,
+      "coRequisit": [],
+      "name": "PRO1",
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 0,
+          "materials": ["Projector"],
+          "groupSize": 60,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+      ],
+      "students": 120,
+      "longName": "Programació 1"
+    }
+  "name": "GEI2010"
+    }//

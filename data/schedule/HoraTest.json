@@ -1,0 +1,197 @@
+{
+  "sessions": [
+    {
+      "subject": "FM",
+      "weekDay": 3,
+      "start": 8,
+      "groupSize": 90,
+      "classroom": "A5201",
+      "end": 10,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "FM",
+      "weekDay": 0,
+      "start": 10,
+      "groupSize": 45,
+      "classroom": "A5203",
+      "end": 12,
+      "type": "Problemes",
+      "group": "12"
+    },
+    {
+      "subject": "FM",
+      "weekDay": 2,
+      "start": 13,
+      "groupSize": 45,
+      "classroom": "A5S112",
+      "end": 15,
+      "type": "Problemes",
+      "group": "11"
+    },
+    {
+      "subject": "PROP",
+      "weekDay": 3,
+      "start": 9,
+      "groupSize": 50,
+      "classroom": "A6104",
+      "end": 11,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "PROP",
+      "weekDay": 2,
+      "start": 8,
+      "groupSize": 50,
+      "classroom": "A5104",
+      "end": 10,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 4,
+      "start": 8,
+      "groupSize": 5,
+      "classroom": "C6S309",
+      "end": 10,
+      "type": "Laboratori",
+      "group": "12"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 4,
+      "start": 8,
+      "groupSize": 5,
+      "classroom": "C6S309",
+      "end": 10,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 1,
+      "start": 8,
+      "groupSize": 10,
+      "classroom": "A5S109",
+      "end": 10,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 3,
+      "start": 10,
+      "groupSize": 30,
+      "classroom": "A5S111",
+      "end": 12,
+      "type": "Laboratori",
+      "group": "22"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 0,
+      "start": 12,
+      "groupSize": 30,
+      "classroom": "A1S101",
+      "end": 14,
+      "type": "Laboratori",
+      "group": "21"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 2,
+      "start": 15,
+      "groupSize": 30,
+      "classroom": "A5S102",
+      "end": 17,
+      "type": "Laboratori",
+      "group": "12"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 4,
+      "start": 17,
+      "groupSize": 30,
+      "classroom": "A5S109",
+      "end": 19,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 2,
+      "start": 11,
+      "groupSize": 60,
+      "classroom": "A6202",
+      "end": 13,
+      "type": "Teoria",
+      "group": "20"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 0,
+      "start": 8,
+      "groupSize": 60,
+      "classroom": "A5S102",
+      "end": 10,
+      "type": "Teoria",
+      "group": "10"
+    }
+  ],
+  "campus": "Real",
+  "name": "HoraTest",
+  "restrictions": {
+    "RestUFixSessionTime": [
+      {
+        "session": {
+          "number": "0",
+          "subject": "PRO1",
+          "type": "Teoria",
+          "group": "10"
+        },
+        "weekDay": 0,
+        "start": 8,
+        "name": "PRO1 Teoria 10 0: Dilluns a les 8h"
+      },
+      {
+        "session": {
+          "number": 0,
+          "subject": "AS",
+          "type": "Teoria",
+          "group": "10"
+        },
+        "weekDay": 1,
+        "start": 8,
+        "name": "AS Teoria 10 0: Dimarts a les 8h"
+      },
+      {
+        "session": {
+          "number": 0,
+          "subject": "PROP",
+          "type": "Teoria",
+          "group": "10"
+        },
+        "weekDay": 2,
+        "start": 8,
+        "name": "PROP Teoria 10 0: Dimecres a les 8h"
+      },
+      {
+        "session": {
+          "number": 0,
+          "subject": "FM",
+          "type": "Teoria",
+          "group": "10"
+        },
+        "weekDay": 3,
+        "start": 8,
+        "name": "FM Teoria 10 0: Dijous a les 8h"
+      }
+    ],
+    "RestUFixSessionClassroom": [],
+    "RestBSameTypeOverlapping": []
+  },
+  "curriculum": "GEI2010"
+}

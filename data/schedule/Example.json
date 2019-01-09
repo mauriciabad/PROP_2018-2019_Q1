@@ -1,0 +1,201 @@
+{
+  "sessions": [
+    {
+      "subject": "FM",
+      "weekDay": 1,
+      "start": 17,
+      "groupSize": 90,
+      "classroom": "A6202",
+      "end": 19,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "FM",
+      "weekDay": 3,
+      "start": 8,
+      "groupSize": 45,
+      "classroom": "A5S102",
+      "end": 10,
+      "type": "Problemes",
+      "group": "12"
+    },
+    {
+      "subject": "FM",
+      "weekDay": 0,
+      "start": 11,
+      "groupSize": 45,
+      "classroom": "A6203",
+      "end": 13,
+      "type": "Problemes",
+      "group": "11"
+    },
+    {
+      "subject": "PROP",
+      "weekDay": 3,
+      "start": 18,
+      "groupSize": 50,
+      "classroom": "A5105",
+      "end": 20,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "PROP",
+      "weekDay": 4,
+      "start": 13,
+      "groupSize": 50,
+      "classroom": "A5204",
+      "end": 15,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 4,
+      "start": 14,
+      "groupSize": 5,
+      "classroom": "C6S309",
+      "end": 16,
+      "type": "Laboratori",
+      "group": "12"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 4,
+      "start": 15,
+      "groupSize": 5,
+      "classroom": "C6S308",
+      "end": 17,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "AS",
+      "weekDay": 4,
+      "start": 13,
+      "groupSize": 10,
+      "classroom": "A5S109",
+      "end": 15,
+      "type": "Teoria",
+      "group": "10"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 4,
+      "start": 8,
+      "groupSize": 30,
+      "classroom": "C6S302",
+      "end": 10,
+      "type": "Laboratori",
+      "group": "22"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 0,
+      "start": 11,
+      "groupSize": 30,
+      "classroom": "C6S306",
+      "end": 13,
+      "type": "Laboratori",
+      "group": "21"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 2,
+      "start": 9,
+      "groupSize": 30,
+      "classroom": "C6S302",
+      "end": 11,
+      "type": "Laboratori",
+      "group": "12"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 2,
+      "start": 11,
+      "groupSize": 30,
+      "classroom": "A5S111",
+      "end": 13,
+      "type": "Laboratori",
+      "group": "11"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 3,
+      "start": 9,
+      "groupSize": 60,
+      "classroom": "D6003",
+      "end": 11,
+      "type": "Teoria",
+      "group": "20"
+    },
+    {
+      "subject": "PRO1",
+      "weekDay": 3,
+      "start": 8,
+      "groupSize": 60,
+      "classroom": "A5102",
+      "end": 10,
+      "type": "Teoria",
+      "group": "10"
+    }
+  ],
+  "campus": "Real",
+  "name": "Example",
+  "restrictions": {
+    "RestUFixSessionTime": [
+      {
+        "session": {
+          "number": 1,
+          "subject": "FM",
+          "type": "Teoria",
+          "group": "10"
+        },
+        "weekDay": 1,
+        "start": 10,
+        "name": "FM Teoria 10 1: Dimarts a les 10h"
+      },
+      {
+        "session": {
+          "number": 1,
+          "subject": "FM",
+          "type": "Problemes",
+          "group": "11"
+        },
+        "weekDay": 1,
+        "start": 14,
+        "name": "FM Problemes 11 1: Dimarts a les 14h"
+      },
+      {
+        "session": {
+          "number": 0,
+          "subject": "AS",
+          "type": "Laboratori",
+          "group": "12"
+        },
+        "weekDay": 4,
+        "start": 17,
+        "name": "AS Laboratori 12 1: Divendres a les 17h"
+      }
+    ],
+    "RestUFixSessionClassroom": [{
+      "session": {
+        "number": 1,
+        "subject": "PROP",
+        "type": "Laboratorio",
+        "group": "11"
+      },
+      "name": "PROP Laboratorio 11 1: A6001",
+      "classroom": "A6001"
+    }],
+    "RestBSameTypeOverlapping": [{
+      "session": {
+        "subject": "PRO1",
+        "type": "Laboratorio"
+      },
+      "name": "PRO1 Laboratorio: No solapaments"
+    }]
+  },
+  "curriculum": "GEI2010"
+}

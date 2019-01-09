@@ -1,0 +1,68 @@
+{
+  "name": "Nord",
+  "classrooms": [
+    {
+      "material": [
+        "Projector",
+        "Ordinador"
+      ],
+      "name": "A5S108",
+      "capacity": 30
+    },
+    {
+      "material": [
+        "Projector",
+        "Ordinador"
+      ],
+      "name": "A5S109",
+      "capacity": 15
+    },
+    {
+      "material": ["Projector"],
+      "name": "A6001",
+      "capacity": 120
+    },
+    {
+      "material": [
+        "Projector",
+        "Altaveus"
+      ],
+      "name": "A6101",
+      "capacity": 70
+    },
+    {
+      "material": [
+        "Projector",
+        "Altaveus"
+      ],
+      "name": "A6102",
+      "capacity": 50
+    },
+    {
+      "material": ["Projector"],
+      "name": "A5001",
+      "capacity": 120
+    },
+    {
+      "material": [
+        "Projector",
+        "Altaveus"
+      ],
+      "name": "A5101",
+      "capacity": 70
+    },
+    {
+      "material": [
+        "Projector",
+        "Altaveus"
+      ],
+      "name": "A5102",
+      "capacity": 50
+    },
+    {
+      "material": ["Ordinadors"],
+      "name": "A1003",
+      "capacity": 110
+    }
+  ]
+}

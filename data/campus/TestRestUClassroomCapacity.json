@@ -1,0 +1,11 @@
+{
+  "name": "Test",
+  "classrooms": [{
+    "material": [
+      "Pisarra",
+      "Ordinador"
+    ],
+    "name": "A101",
+    "capacity": 120
+  }]
+}

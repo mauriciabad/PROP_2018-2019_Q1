@@ -1,0 +1,50 @@
+.schedule{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(24,2em);
+  grid-gap: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  max-width: 35em;
+  padding: 0.5em;
+  margin: 1em auto 0 auto;
+}
+#div-schedule{
+  min-height: 40vh;
+}
+h1{
+  margin-top: 0;
+  opacity: 0.666;
+}
+body{
+  background-image: url("texture-wood.png");
+  text-align: center;
+}
+.class{
+  box-shadow: 0 0.05em 0.2em 0 rgba(0,0,0,0.5);
+  border-radius: 0.3em;
+  text-align: center;
+  display: grid;
+  background-color: white;
+  max-width: 7em;
+  grid-template-rows: 1fr auto;
+  transition: opacity 500ms ease-out;
+}
+.class:hover{
+  opacity: 0.2;
+}
+.subject{
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  align-self: center;
+  line-height: 100%;
+  word-break: break-all;
+  overflow: hidden;
+}
+.room{
+  color: #4f5963;
+  background-color: #ebebeb;
+  border-radius: 0 0 0.3em 0.3em;
+  font-size: 1em;
+}

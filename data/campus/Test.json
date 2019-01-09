@@ -1,0 +1,65 @@
+{
+  "name": "Test",
+  "classrooms": [
+    {
+      "material": [
+        "Projector",
+        "Pisara"
+      ],
+      "name": "A101",
+      "capacity": 125
+    },
+    {
+      "material": [
+        "Projector",
+        "Ordinadors"
+      ],
+      "name": "A1S202",
+      "capacity": 100
+    },
+    {
+      "material": [
+        "Projector",
+        "Ordinadors"
+      ],
+      "name": "A402",
+      "capacity": 100
+    },
+    {
+      "material": [
+        "Ordinadors",
+        " Projectors"
+      ],
+      "name": "A404",
+      "capacity": 150
+    },
+    {
+      "material": [
+        "Projector",
+        "Ordinadors"
+      ],
+      "name": "A405",
+      "capacity": 150
+    },
+    {
+      "material": ["Ordinadors"],
+      "name": "A406",
+      "capacity": 50
+    },
+    {
+      "material": ["Ordinadors"],
+      "name": "A202",
+      "capacity": 125
+    },
+    {
+      "material": ["Ordinadors"],
+      "name": "A302",
+      "capacity": 120
+    },
+    {
+      "material": ["Ordinadors"],
+      "name": "A302",
+      "capacity": 123
+    }
+  ]
+}

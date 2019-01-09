@@ -1,0 +1,20 @@
+{
+  "subjects": [{
+    "preRequisit": [""],
+    "preCoRequisit": [""],
+    "level": 1,
+    "coRequisit": [""],
+    "classTypes": [{
+      "duration": 2,
+      "subgroup": 1,
+      "materials": [""],
+      "groupSize": 1,
+      "weeklySessions": 1,
+      "type": "Teoria"
+    }],
+    "name": "a",
+    "students": 1,
+    "longName": "aaa"
+  }],
+  "name": "una"
+}

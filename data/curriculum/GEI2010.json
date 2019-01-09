@@ -1,0 +1,143 @@
+{
+  "subjects": [
+    {
+      "preRequisit": [],
+      "preCoRequisit": ["FM"],
+      "level": 1,
+      "coRequisit": [],
+      "name": "PRO1",
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 0,
+          "materials": ["Projector"],
+          "groupSize": 60,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+        {
+          "duration": 2,
+          "subgroup": 2,
+          "materials": ["Ordinador"],
+          "groupSize": 30,
+          "weeklySessions": 1,
+          "type": "Laboratori"
+        }
+      ],
+      "students": 120,
+      "longName": "Programació 1"
+    },
+    {
+      "preRequisit": [],
+      "preCoRequisit": [
+        "PRO1",
+        "IC"
+      ],
+      "level": 1,
+      "coRequisit": [],
+      "name": "FM",
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 0,
+          "materials": [],
+          "groupSize": 90,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+        {
+          "duration": 2,
+          "subgroup": 2,
+          "materials": [],
+          "groupSize": 45,
+          "weeklySessions": 1,
+          "type": "Problemes"
+        }
+      ],
+      "students": 90,
+      "longName": "Fonaments Matemátics"
+    },
+    {
+      "preRequisit": ["PRO1"],
+      "preCoRequisit": [],
+      "level": 5,
+      "coRequisit": [],
+      "name": "PROP",
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 0,
+          "materials": ["Projector"],
+          "groupSize": 50,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+        {
+          "duration": 2,
+          "subgroup": 1,
+          "materials": [],
+          "groupSize": 50,
+          "weeklySessions": 1,
+          "type": "Laboratori"
+        }
+      ],
+      "students": 50,
+      "longName": "Projectes de programació"
+    },
+    {
+      "preRequisit": ["PRO1"],
+      "preCoRequisit": [""],
+      "level": 5,
+      "coRequisit": [""],
+      "name": "PROP",
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 0,
+          "materials": ["Projector"],
+          "groupSize": 10,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+        {
+          "duration": 2,
+          "subgroup": 2,
+          "materials": ["Ordinador"],
+          "groupSize": 5,
+          "weeklySessions": 1,
+          "type": "Laboratori"
+        }
+      ],
+      "students": 50,
+      "longName": "Projectes de programació"
+    },
+    {
+      "preRequisit": [""],
+      "preCoRequisit": [""],
+      "level": 4,
+      "coRequisit": [""],
+      "classTypes": [
+        {
+          "duration": 2,
+          "subgroup": 2,
+          "materials": [""],
+          "groupSize": 60,
+          "weeklySessions": 1,
+          "type": "Teoria"
+        },
+        {
+          "duration": 2,
+          "subgroup": 6,
+          "materials": [""],
+          "groupSize": 20,
+          "weeklySessions": 1,
+          "type": "Laboratori"
+        }
+      ],
+      "name": "IES",
+      "students": 120,
+      "longName": "Introducció a l'enginyeria del software"
+    }
+  ],
+  "name": "GEI2010"
+}

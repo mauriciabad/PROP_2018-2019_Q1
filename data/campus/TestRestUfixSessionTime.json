@@ -1,0 +1,12 @@
+{
+  "name": "Test",
+  "classrooms": [
+    {
+      "material": [
+        "Projector"
+      ],
+      "name": "A101",
+      "capacity": 125
+    }
+  ]
+} //
