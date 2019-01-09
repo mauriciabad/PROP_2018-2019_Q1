@@ -1,0 +1,81 @@
+Com inserir les dades al driver per comprobar el funcionament de les restriccions
+
+####Check Overlaping####
+Primer es te que insertar la informacio previa del estat del horari, considerem que nomes tenim dos sesions
+Es necesari inserir el nom de la sesio i el seu tipus, ambdos strings. Despres inserim el nom de la sesio i el el tipus de la sesio que volem evaluar la restriccio.
+Si el tipus i el nom de la sesio es repeteix amb alguna de les sesions previes el resultat ha de ser -90, en el cas contrari el resultat ser 90 
+
+Exemple de entrada (Resultat -90)
+S1
+T1
+S3
+T4
+S3
+T4
+
+####Check Near Classroom####
+Primer es te que insertar la informacio previa del estat del horari, considerem que nomes tenim dos sesions
+Inserirem el nivell de la asignatura, el numero de aula y el pis, ambdos enters y el nom del edifici, un string. Despres inserim les dades el nivell de la asignatura y la distancia numero de aula, pis y el nom del edifici a evaluar
+Si son edfici, pis i numero igual el resultat sera 10, si nomes son iguals edifici i pis, el resultat sera -2 si nomes es igual l'edifici el resultat sera -5X, on x son els pisos de diferencia y si no coincideix cap valor el resultat sera -10
+
+Exemple de entrada(Resultat -2)
+1
+1
+B
+2
+1
+B
+3
+1
+B
+
+####Check Level####
+Primer es te que insertar la informacio previa del estat del horari, considerem que nomes tenim dos sesions
+Es necesari inserir el nivel de la sesio, un enter, el nom de la sesio i el seu tipus, ambdos strings. Despres inserim el nivel de la sesio, un enter, el nom de la sesio i el tipus de la sesio que volem evaluar la restriccio.
+Si es produeix un overlaping y el nivell de la sesio es repeteix amb alguna de les sesions previes el resultat ha de ser -80, en el cas contrari el resultat ser 80 
+
+Exemple de entrada(Resultat -80)
+1
+S1
+T1
+2
+S2
+T2
+2
+S2
+T2
+
+####Check Corequisit####
+Primer es te que insertar la informacio previa del estat del horari, considerem que nomes tenim dos sesions
+Es necesari inserir el nom de la sesio i el seu tipus, ambdos strings. Despres inserim el nom de la sesio i el el tipus de la sesio que volem evaluar la restriccio.
+Si el nom de alguna de les sesions previes es Subject1 o Subject2, que son els valors que dona el stub con corequisit o precorequisit el resultat ha de ser -30*X on x es el nombre de solapaments amb precorequisit i corequisits, en el cas contrari el resultat ser 30 
+
+Exemple de entrada(Resultat 30)
+S1
+T1
+Subject2
+T2
+S5
+T5
+
+####Check BLevelCompact####
+Primer es te que insertar la informacio previa del estat del horari, considerem que nomes tenim dos sesions
+s necesari inserir el nivel de la sesio, un enter, el nom de la sesio i el seu tipus, ambdos strings y per ultim la hora de la sesio amb enter. Despres inserim el nivel de la sesio, un enter, el nom de la sesio, el tipus y la hora de la sesio de la que volem evaluar la restriccio.
+S'evalua la distancia en temps entre dues asignatures del mateix nivell de estudis
+
+Exemple de Entrada(Resultat -35)
+1
+S1
+T3
+1
+----
+1
+S4
+T3
+2
+----
+1
+S5
+T4
+4
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Maurici Abad">
+  <link rel='shortcut icon' type='image/x-icon' href='media/icon.ico' />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Schedule Genie</title>
+</head>
+<body>
+  <input type="text" name="sch" id="sch" placeholder="schedule JSON">
+  <button onclick="generateSchedule(JSON.parse(document.getElementById('sch').value));">Load</button>
+  <div class="div-schedule" id="div-schedule"></div>
+  <img src="media/magic-lamp.svg" width="120px" style="opacity: 0.666;">
+  <h1>Schedule Genie</h1>
+  <script src="script.js"></script>
+</body>
+</html>

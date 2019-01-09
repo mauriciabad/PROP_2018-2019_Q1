@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentation.MainMenu">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="12" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="523" height="500"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+      <maximumSize width="450" height="350"/>
+      <minimumSize width="450" height="350"/>
+      <preferredSize width="450" height="350"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="73b0d" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="876a2" class="javax.swing.JButton" binding="crearButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="125" height="-1"/>
+                <preferred-size width="125" height="-1"/>
+                <maximum-size width="125" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=4&gt;Crear&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="e9b43" class="javax.swing.JButton" binding="obrirButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="125" height="-1"/>
+                <preferred-size width="125" height="-1"/>
+                <maximum-size width="125" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=4&gt;Obrir&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <hspacer id="60aa7">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="3a3fa">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="5d729" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="16eb" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=5&gt;Horari&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="81d20">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="dbe67">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="c397a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1c141" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=5&gt;Gestionar&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cbb9c" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="35894">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="d0dbd">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="dc1bf" class="javax.swing.JButton" binding="aulaButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="125" height="-1"/>
+                <preferred-size width="125" height="-1"/>
+                <maximum-size width="125" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=4&gt;Aules&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="5b413" class="javax.swing.JButton" binding="plaEstudisButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="125" height="-1"/>
+                <preferred-size width="125" height="-1"/>
+                <maximum-size width="125" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;b&gt;&lt;font size=4&gt;Pla Estudis&lt;/font&gt;&lt;/b&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="21346" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+            <preferred-size width="-1" height="30"/>
+            <maximum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bc4e0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <preferred-size width="-1" height="30"/>
+                <maximum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;font size=10&gt;Schedule Genie&lt;/font&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="2b1fd">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="789ed">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="14e3b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="ico/magic-lamp.gif"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98ab5" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="-1"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4fd0b" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="-1"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>

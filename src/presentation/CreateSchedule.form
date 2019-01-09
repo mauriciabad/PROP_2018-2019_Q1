@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentation.CreateSchedule">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="16" left="16" bottom="16" right="16"/>
+    <constraints>
+      <xy x="20" y="20" width="1650" height="760"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2b27d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Restriccions"/>
+        </properties>
+      </component>
+      <component id="6acb4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="aa7f4"/>
+          <text value="Aplicades"/>
+        </properties>
+      </component>
+      <scrollpane id="aa7f4">
+        <constraints>
+          <grid row="5" column="1" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b00de" class="javax.swing.JList" binding="restrictionsList">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b9a9e" class="javax.swing.JComboBox" binding="restrictionComboBox">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Fixar Hora"/>
+            <item value="Fixar Aula"/>
+            <item value="No solapaments d'un tipus"/>
+          </model>
+        </properties>
+      </component>
+      <component id="be3b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="b9a9e"/>
+          <text value="Restricció"/>
+        </properties>
+      </component>
+      <component id="2399f" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="f876f">
+        <constraints>
+          <grid row="4" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="16" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <grid id="d7d8b" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="485ec" class="javax.swing.JComboBox" binding="campusComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+          <component id="df607" class="javax.swing.JComboBox" binding="curriculumComboBox">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+          <component id="e0368" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="485ec"/>
+              <text value="Campus"/>
+            </properties>
+          </component>
+          <component id="9c213" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="df607"/>
+              <text value="Pla d'estudis"/>
+            </properties>
+          </component>
+          <component id="b382" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="d91ad"/>
+              <text value="Nom de l'horari"/>
+            </properties>
+          </component>
+          <component id="d91ad" class="javax.swing.JTextField" binding="nomDeLHorariTextField" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3eca2" binding="cards" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="54c7" binding="FixHour" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Fixar Hora"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="61f2c" class="javax.swing.JComboBox" binding="assignaturaComboBox1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="FM"/>
+                    <item value="PROP"/>
+                    <item value="M1"/>
+                    <item value="EDA"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="8c21d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="38997"/>
+                  <text value="Assignatura"/>
+                </properties>
+              </component>
+              <component id="7fb2b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="890f7"/>
+                  <text value="Hora"/>
+                </properties>
+              </component>
+              <component id="890f7" class="javax.swing.JComboBox" binding="horaComboBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="8"/>
+                    <item value="9"/>
+                    <item value="10"/>
+                    <item value="11"/>
+                    <item value="12"/>
+                    <item value="13"/>
+                    <item value="14"/>
+                    <item value="15"/>
+                    <item value="16"/>
+                    <item value="17"/>
+                    <item value="18"/>
+                    <item value="19"/>
+                    <item value="20"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="d9db9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="7e291"/>
+                  <text value="Dia"/>
+                </properties>
+              </component>
+              <component id="fe94e" class="javax.swing.JComboBox" binding="grupComboBox1">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="10"/>
+                    <item value="20"/>
+                    <item value="30"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b0951" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="b8ea1"/>
+                  <text value="Grup"/>
+                </properties>
+              </component>
+              <component id="f6599" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nº Sessió"/>
+                </properties>
+              </component>
+              <component id="21f2b" class="javax.swing.JComboBox" binding="nsessioComboBox1">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="1"/>
+                    <item value="2"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="916a6" class="javax.swing.JComboBox" binding="tipusComboBox1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Teoria"/>
+                    <item value="Laboratori"/>
+                    <item value="Problemes"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b4945" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="916a6"/>
+                  <text value="Tipus"/>
+                </properties>
+              </component>
+              <component id="7e291" class="javax.swing.JComboBox" binding="diaComboBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Dilluns"/>
+                    <item value="Dimarts"/>
+                    <item value="Dimecres"/>
+                    <item value="Dijous"/>
+                    <item value="Divendres"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c748e" binding="FixClassroom" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Fixar Aula"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bf3d6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="38997"/>
+                  <text value="Assignatura"/>
+                </properties>
+              </component>
+              <component id="4d324" class="javax.swing.JComboBox" binding="assignaturaComboBox2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="FM"/>
+                    <item value="PROP"/>
+                    <item value="M1"/>
+                    <item value="EDA"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="42830" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="1713b"/>
+                  <text value="Aula"/>
+                </properties>
+              </component>
+              <component id="1713b" class="javax.swing.JComboBox" binding="aulaComboBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="A5001"/>
+                    <item value="A5002"/>
+                    <item value="A5101"/>
+                    <item value="A5102"/>
+                    <item value="A6001"/>
+                    <item value="A6002"/>
+                    <item value="A6101"/>
+                    <item value="A6102"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="d4af6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nº Sessió"/>
+                </properties>
+              </component>
+              <component id="758bf" class="javax.swing.JComboBox" binding="nsessioComboBox2">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="1"/>
+                    <item value="2"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="4c254" class="javax.swing.JComboBox" binding="grupComboBox2">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="10"/>
+                    <item value="20"/>
+                    <item value="30"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="19363" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="b8ea1"/>
+                  <text value="Grup"/>
+                </properties>
+              </component>
+              <component id="ef6d3" class="javax.swing.JComboBox" binding="tipusComboBox2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Teoria"/>
+                    <item value="Laboratori"/>
+                    <item value="Problemes"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="d0616" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="ef6d3"/>
+                  <text value="Tipus"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9cea4" binding="Overlap" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="No solapaments d'un tipus"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b8ea1" class="javax.swing.JComboBox" binding="tipusComboBox3">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Teoria"/>
+                    <item value="Problemes"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="f115" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="b8ea1"/>
+                  <text value="Tipus"/>
+                </properties>
+              </component>
+              <component id="38997" class="javax.swing.JComboBox" binding="assignaturaComboBox3">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="FM"/>
+                    <item value="PROP"/>
+                    <item value="M1"/>
+                    <item value="EDA"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b7aeb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="38997"/>
+                  <text value="Assignatura"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="7805b">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="7d62a">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="47282" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Crear"/>
+        </properties>
+      </component>
+      <component id="86b91" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Eliminar"/>
+        </properties>
+      </component>
+      <component id="971f1" class="javax.swing.JButton" binding="afegirButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Afegir"/>
+        </properties>
+      </component>
+      <grid id="9e303" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ba1dc" class="javax.swing.JButton" binding="visualitzarHorariButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Visualitzar Horari"/>
+            </properties>
+          </component>
+          <component id="ac3e6" class="javax.swing.JButton" binding="backbtn">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="🡰"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
